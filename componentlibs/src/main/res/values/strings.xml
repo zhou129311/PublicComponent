@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">oct_set</string>
+    <!--共用资源-->
+    <string name="no_net_toast">网络未连接，请打开网络</string>
+    <string name="error_net_toast">网络连接失败，请稍后再试</string>
+    <string name="ok_btn">确定</string>
+    <string name="cancel_btn">取消</string>
+
+    <!--==========微信互联页面 begin========-->
+    <string name="titel_pw_set">微信密码设置</string>
+    <string name="titel_list_bind">微信绑定列表</string>
+    <!--设置密码-->
+    <string name="edit_set_pw">设置密码&#160;:&#160;</string>
+    <string name="edit_change_pw">修改密码&#160;:&#160;</string>
+    <string name="tv_source_pw">原密码&#160;:&#160;</string>
+    <string name="source_pw_hint1">正在获取</string>
+    <string name="source_pw_hint2">获取失败，请连接网络</string>
+    <string name="source_pw_hint3">获取失败，请稍后再试</string>
+    <string name="set_pw_success_toast">密码设置成功</string>
+    <string name="edit_hint">请输入4&#8211;6位新密码</string>
+    <string name="same_password">新密码与原密码相同</string>
+    <!--绑定列表-->
+    <string name="add_bind_btn">添加绑定</string>
+    <string name="not_list">没有绑定微信，请点击“添加绑定”</string>
+    <string name="del_btn">删除</string>
+    <string name="del_fail_toast">删除失败，请稍后再试</string>
+    <string name="get_list_fail">获取失败</string>
+    <string name="again_btn">再试一次</string>
+    <!--==========微信互联页面 end========-->
+
+    <!--==========屏幕设置页面 begin========-->
+    <string name="screen_set_titel">屏幕显示</string>
+    <string name="light_set">亮度调节</string>
+    <string name="light_set_toast">亮度调节为</string>
+    <string name="desktop_color">桌面颜色</string>
+    <string name="desktop_color_1">深沉</string>
+    <string name="desktop_color_2">多彩</string>
+    <string name="die_screen_time">熄屏时间</string>
+    <string name="die_screen_time_1">30秒</string>
+    <string name="die_screen_time_2">1分钟</string>
+    <string name="die_screen_time_3">5分钟</string>
+    <string name="die_screen_time_4">30分钟</string>
+    <!--==========屏幕设置页面 end========-->
+
+    <!--==========关于页面 begin========-->
+    <string name="titel_device">设备信息</string>
+    <string name="titel_update">系统更新</string>
+    <!--设备信息-->
+    <string name="build_id">版本：</string>
+    <string name="imei">IMEI：</string>
+    <string name="iccid">ICCID：</string>
+    <string name="not_iccid">未检测到SIM卡，请插入后重试</string>
+    <string name="tel">官方售后服务电话：</string>
+    <string name="refresh_qrcode_btn">刷新二维码</string>
+    <string name="refresh_qrcode_hint">微信扫一扫绑定</string>
+    <string name="click_so_often1_toast">操作太频繁，请5秒后再试</string>
+    <!--系统更新-->
+    <string name="connect_wifi">亲，连接WiFi升级，更省流量哦</string>
+    <string name="load_hint">请稍后</string>
+    <string name="check_update_btn">检测更新</string>
+    <string name="check_update_toast">当前已是最新版本</string>
+    <string name="system_update_btn">系统升级</string>
+    <string name="click_so_often2_toast">操作太频繁，请10秒后再试</string>
+    <string name="find_new_build">发现新版本:</string>
+    <string name="update_log">更新日志:</string>
+    <!--提示DIALOG-->
+    <string name="check_dialog_title">检测到新版本，是否更新</string>
+    <string name="download_btn">开始下载</string>
+    <string name="update_dialog_hint_title1">提示</string>
+    <string name="update_hint_text1">1、请从http://www.broadsense.cn/pine/
+       upgrade下载升级包</string>
+    <string name="update_dialog_hint_text1">1、请从http://www.broadsense.cn/pine/upgrade下载升级包\n2、将升级包命名为update.zip\n3、将升级包拷贝到外置存储卡的根目录下</string>
+    <string name="update_dialog_hint_text2">检测到存储卡里有新的升级包，是否更新</string>
+    <!--==========关于页面 end========-->
+
+    <!--==========防盗设置页面 begin========-->
+    <string name="guard_titel">停车监控</string>
+    <string name="guard_des">停车监控灵敏度</string>
+    <string name="guard_off_toast">关闭停车监控</string>
+    <string name="guard_des_seek_toast">停车监控敏度调节为</string>
+    <string name="guard_hint">当停车监控触发后，会录制5秒钟的视频通过我们的微信公众号推送给您。</string>
+    <!--提示DIALOG-->
+    <string name="go_attention">去关注</string>
+    <string name="guard_dialog_content1">打开停车监控，需要关注我们的微信公众号才能将录制的视频同步推送给您</string>
+    <string name="guard_dialog_content2">请您去关于本机里关注并绑定我们的微信公众号，停车监控才能生效</string>
+    <!--==========防盗设置页面 end========-->
+
+    <!--更多设置-->
+    <string name="wifi">WiFi</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="guard_set">停车监控</string>
+    <string name="traffic_statistics">流量统计</string>
+    <string name="date">时间和日期</string>
+    <string name="storage">存储空间</string>
+    <string name="master_clear">恢复出厂设置</string>
+    <string name="master_clear_hint_1">请注意&#160;&#160;:&#160;&#160;恢复出厂设置会清除您机器内部存储设备中的所有数据，包括&#160;&#160;:&#160;&#160;您的账号信息、系统和应用的数据和设置、应用程序、视频、音乐、照片等用户数据，存储卡里的内容不会被删除。\n\n是否确定恢复出厂设置？</string>
+    <string name="master_clear_hint_2">要清除所有个人信息和应用数据吗？请注意，此操作无法撤销！</string>
+    <string name="master_clear_btn">清除全部内容</string>
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!--toolbar-->
+    <dimen name="toolbar_titel_size">28px</dimen>
+    <dimen name="toolbar_height">64px</dimen>
+    <!--guard-->
+    <dimen name="guard_sensitivity_size">26px</dimen>
+    <!--dialog-->
+    <dimen name="dialog_title_size">28px</dimen>
+    <dimen name="dialog_body_size">22px</dimen>
+    <dimen name="dialog_btn_text_size">24px</dimen>
+
+</resources>

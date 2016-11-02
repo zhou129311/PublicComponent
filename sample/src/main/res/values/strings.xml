@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Component</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="dialog_title">含标题栏Dialog</string>
+    <string name="dialog_no_title">不含标题栏Dialog</string>
+
+</resources>
