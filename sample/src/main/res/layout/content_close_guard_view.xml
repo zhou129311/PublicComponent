@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120px"
+        android:text="@string/no_guard_mode"
+        android:textColor="@color/white"
+        android:textSize="28px"/>
+
+    <TextView
+        android:id="@+id/hint_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px"
+        android:gravity="center"
+        android:paddingLeft="40px"
+        android:paddingRight="40px"
+        android:text="@string/idle_mode_not_bind_hint"
+        android:textColor="@color/text_no_click"
+        android:textSize="22px"/>
+
+    <LinearLayout
+        android:id="@+id/check_box_layout"
+        android:layout_marginTop="30px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/check_box"
+            android:layout_width="20px"
+            android:layout_height="20px"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/check_box_bg"
+            android:button="@null"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15px"
+            android:text="@string/next_remember"
+            android:textColor="@color/text_no_click"
+            android:textSize="22px"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/no_open_btn"
+            style="@style/button_1_style"
+            android:layout_width="240px"
+            android:layout_height="60px"/>
+
+        <Button
+            android:id="@+id/open_btn"
+            style="@style/button_1_style"
+            android:layout_marginStart="80px"
+            android:layout_width="240px"
+            android:layout_height="60px"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -10,6 +10,10 @@
     <color name="device_info_color">#d4d4d4</color>
     <color name="about_device_notice_wifi">#6a6c72</color>
 
+
+    <color name="btn_nor">#1463ce</color>
+    <color name="btn_click">#034aa6</color>
+
     <color name="qr_text">#787a80</color>
     <color name="qr_stroke_click">#2d2f34</color>
     <color name="qr_solid_click">#202528</color>

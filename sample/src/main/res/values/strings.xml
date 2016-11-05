@@ -8,4 +8,12 @@
     <string name="dialog_title">含标题栏Dialog</string>
     <string name="dialog_no_title">不含标题栏Dialog</string>
 
+    <!--待机模式-->
+    <string name="guard_mode">已进入停车监控模式</string>
+    <string name="no_guard_mode">是否开启停车监控模式</string>
+    <string name="next_remember">下次熄火在提醒我</string>
+    <string name="idle_mode_not_bind_hint">停车监控开启后，当检测到碰撞时，后视镜会自动发一段实时视频给绑定的微信号</string>
+    <string name="idle_mode_bind_hint">当检测到碰撞时，后视镜会自动发一段实时视频给绑定的微信号</string>
+    <string name="idle_dialog_title">当前车辆未点火，为了保护汽车电瓶，3分钟后将自动熄屏</string>
+
 </resources>

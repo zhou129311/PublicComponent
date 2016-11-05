@@ -10,7 +10,6 @@
 
     <!--第1种按钮样式-->
     <style name="button_1" parent="@android:style/Widget.Button">
-        <item name="android:background">@drawable/btn_1_bg</item>
         <item name="android:gravity">center</item>
         <item name="android:textColor">#787a80</item>
         <item name="android:textSize">24px</item>

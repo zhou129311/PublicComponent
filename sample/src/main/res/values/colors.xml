@@ -3,4 +3,45 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="rippelColor">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <!--更多设置界面item bg color-->
+    <color name="item_normal">#17191d</color>
+    <color name="item_click">#25282d</color>
+
+    <color name="device_info_color">#d4d4d4</color>
+    <color name="about_device_notice_wifi">#6a6c72</color>
+
+    <color name="qr_text">#787a80</color>
+    <color name="qr_stroke_click">#2d2f34</color>
+    <color name="qr_solid_click">#202528</color>
+    <color name="qr_stroke_nor">#4a4c4d</color>
+    <color name="qr_solid_nor">#383d40</color>
+    <color name="text_no_click">#ff6a6c72</color>
+    <color name="list_click">#393d40</color>
+    <color name="tran">#00ffffff</color>
+    <color name="bindlist_text">#6a6c72</color>
+    <color name="del_bindlist_text">#d00909</color>
+
+    <color name="fragment_bg_gray">#ff1f2224</color>
+
+    <color name="top_bar_bg_gray">#ff282c2e</color>
+    <color name="text_gray">#ff3f4148</color>
+    <color name="edit_hint">#6a6c72</color>
+    <color name="edit_text">#bfbfbf</color>
+    <color name="blue">#ff1463ce</color>
+    <!--seekbar-->
+    <color name="color_seekbar_progress">#ffd7930e</color>
+    <color name="color_seekbar_normal">#ff3f4148</color>
+    <color name="color_seekbar_disable">#6d5a36</color>
+    <!--all bg-->
+    <color name="window_bg">#1f2224</color>
+    <!--toolbar-->
+    <color name="toolbar_bg">#282c2e</color>
+    <color name="toolbar_titel">#ffffff</color>
+    <!--dialog-->
+    <color name="dialog_bg_color">#a5a5a5</color>
+
 </resources>
