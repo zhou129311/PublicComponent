@@ -5,7 +5,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.os.Handler;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.util.Log;
@@ -19,8 +18,6 @@ import android.util.Log;
  */
 
 public class IdleService extends Service {
-
-    Handler mHandler = new Handler();
     private ScreenReceiver mScreenReceiver;
 
     @Nullable
@@ -46,13 +43,6 @@ public class IdleService extends Service {
         super.onCreate();
         mScreenReceiver = new ScreenReceiver();
         registerReceiver();
-        mHandler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                Log.i("zzzz","UIUtils.lightScreen()");
-                UIUtils.lightScreen(IdleService.this);
-            }
-        }, 30000);
 
     }
 
@@ -61,8 +51,6 @@ public class IdleService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         return super.onStartCommand(intent, flags, startId);
     }
-
-
 
     /**
      * 接收亮屏息屏事件广播
